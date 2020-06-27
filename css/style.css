@@ -1,0 +1,58 @@
+*{
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.nav-link:hover::after{
+  content: '';
+  display: block;
+  border-bottom: 2px solid blue;
+  width: 60%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -7px;  
+}
+
+
+
+.jumbotron{
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+hr{
+  width: 150px;
+  border-top: 5px solid grey;
+  border-radius: 10px;
+}
+.services img{
+  height: 190px;
+}
+
+.about{
+  background-color: #f0f0f0;
+}
+.contact{
+  background-color: #f0f0f0; 
+}
+.works img{
+  height: 200px;
+  width: 450px;
+}
+.wow{
+  visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
